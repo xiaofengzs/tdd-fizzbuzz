@@ -55,4 +55,11 @@ class GameTest {
 
         assertEquals(got, "BuzzWhizz");
     }
+
+    @Test
+    void should_return_FizzBuzzWhizz_when_input_multiple_of_3_and_5_and_7() {
+        String got = game.playGame(105);
+
+        assertEquals(got, "FizzBuzzWhizz");
+    }
 }
