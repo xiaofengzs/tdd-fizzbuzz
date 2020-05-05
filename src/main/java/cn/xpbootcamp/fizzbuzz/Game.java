@@ -6,6 +6,9 @@ public class Game {
             if (number % 5 == 0) {
                 return "FizzBuzz";
             }
+            if(number % 7 == 0) {
+                return "FizzWhizz";
+            }
             return "Fizz";
         } else if (number % 5 == 0) {
             return "Buzz";
