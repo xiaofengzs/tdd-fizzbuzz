@@ -20,4 +20,11 @@ class GameTest {
 
         assertEquals(got, "Fizz");
     }
+
+    @Test
+    void should_return_Buzz_when_input_multiple_of_5() {
+        String got = game.playGame(10);
+
+        assertEquals(got, "Buzz");
+    }
 }
