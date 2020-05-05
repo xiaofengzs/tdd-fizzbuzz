@@ -27,4 +27,11 @@ class GameTest {
 
         assertEquals(got, "Buzz");
     }
+
+    @Test
+    void should_return_Whizz_when_input_multiple_of_7() {
+        String got = game.playGame(14);
+
+        assertEquals(got, "Whizz");
+    }
 }
