@@ -11,6 +11,9 @@ public class Game {
             }
             return "Fizz";
         } else if (number % 5 == 0) {
+            if(number % 7 == 0) {
+                return "BuzzWhizz";
+            }
             return "Buzz";
         } else if (number % 7 ==0) {
             return "Whizz";
