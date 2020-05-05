@@ -4,3 +4,4 @@
 4. 输入3和5的倍数，输出FizzBuzz
 5. 输入3和7的倍数，输出FizzWhizz
 6. 输入5和7倍数，输出BuzzWhizz
+7. 输入3和和5和7倍数，输出FizzBuzzWhizz
