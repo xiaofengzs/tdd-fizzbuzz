@@ -2,7 +2,11 @@ package cn.xpbootcamp.fizzbuzz;
 
 public class Game {
 
-    public int play(int num) {
-        return num;
+    public String play(int num) {
+        String result = "";
+        if(num % 3 == 0) {
+            result += "Fizz";
+        }
+        return result.isEmpty() ? String.valueOf(num) : result;
     }
 }
