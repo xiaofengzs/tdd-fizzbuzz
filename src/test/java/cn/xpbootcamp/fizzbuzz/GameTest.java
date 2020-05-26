@@ -50,4 +50,13 @@ class GameTest {
 
         assertEquals("FizzBuzz", got);
     }
+
+    @Test
+    void should_say_FizzWhizz_given_a_number_is_multiple_of_three_and_seven_when_play() {
+        Game game = new Game();
+
+        String got = game.play(21);
+
+        assertEquals("FizzWhizz", got);
+    }
 }
