@@ -32,4 +32,13 @@ class GameTest {
 
         assertEquals("Buzz", got);
     }
+
+    @Test
+    void should_say_Whizz_given_a_number_is_multiple_of_seven_when_play() {
+        Game game = new Game();
+
+        String got = game.play(7);
+
+        assertEquals("Whizz", got);
+    }
 }
